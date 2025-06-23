@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 2rem;
+}
+
+.todo {
+  background: white;
+  padding: 1rem;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.todo input {
+  width: 70%;
+  padding: 0.5rem;
+}
+
+.todo button {
+  padding: 0.5rem;
+}
+
+#todoList li {
+  margin-top: 0.5rem;
+  background: #eee;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#todoList li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
